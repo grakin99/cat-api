@@ -1,19 +1,27 @@
 {
-  "name": "jskit",
+  "name": "cat-api",
   "version": "1.0.0",
-  "description": "From this class you should be able to setup a javascript web project directory as shown below.",
+  "description": "cat-api",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html --out-dir dev",
-    "build": "parcel build src/index.html",
-    "serv": "http-server public"
+    "dev": "parcel dev src/index.html"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grakin99/cat-api.git"
+  },
+  "keywords": [
+    "cat",
+    "api"
+  ],
+  "author": "graham kineshanko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grakin99/cat-api/issues"
+  },
+  "homepage": "https://github.com/grakin99/cat-api#readme",
   "devDependencies": {
-    "http-server": "^0.12.3",
+    "https-server": "^0.1.2",
     "parcel": "^1.12.4"
   }
 }
